@@ -114,7 +114,7 @@ class Storage:
         return f"{self.race_name} >>> (уровень: {self.level}, HP: {self.health_points})"
 
 class Ork(Storage):
-    race_health_points = 100
+    race_health_points = 90
     race_attack_power = 10
     race_name = "Орк"
 
